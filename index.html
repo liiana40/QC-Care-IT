@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QC Care & IT</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/qc.svg" alt="logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/goldqc.svg" alt="logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Skills</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Java</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Python</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">JavaScript</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Node/SpringBoot</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">API and REST web services</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Liliana&nbsp;Ignat</b>.
+            <br>Web Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in <abbr title="Accessibility">a11y</abbr>
+            and Core Web Vitals
+          </p>
+
+          <div class="btn-group">
+            <a href="./contact.html" class="btn btn-primary">Contact</a>
+            <a href="./about.html" class="btn btn-secondary">About</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/picme.png" alt="Liliana Ignat" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Wise & Outrageous</h2>
+
+          <div class="blog-card-group">
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/music.jpeg" alt="Music Player"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Music Player</button>
+
+                <h3><a href="" class="h3">Audio Play</a></h3>
+
+                <div class="music">
+                  <div class="blog-text" id="title">Music Name</div>
+                  <div class="player">
+                      <audio src="./assets/music/own.mp3"></audio>
+                      <div class="btns">
+                          <span class="blog-topic text-tiny" id="prev">
+                              <ion-icon name="play-back-outline"></ion-icon>
+                          </span>
+                          <span class="blog-topic text-tiny" id="playPause">
+                              <ion-icon name="play-outline"></ion-icon>
+                          </span>
+                          <span class="blog-topic text-tiny" id="next">
+                              <ion-icon name="play-forward-outline"></ion-icon>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/dictionary.png"
+                  alt="Dictionary" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Dictionary</button>
+
+                <h3><a href="" class="h3">Word Dictionary</a>
+                </h3>
+
+                <section>
+                  <form class="searchForm">
+                      
+                      <input type="search" name="searchBox" id="searchBox" placeholder="word to search">
+                      <input type="button" name="submit" value="submit" onclick="wordSearch()">
+                      <input type="reset" value="reset" onclick="reloadPage()">
+                  </form>
+          
+                  <div class="searchResult" id="searchResult">
+                      <div>
+                          <p class="blog-text" id="word"></p>
+                      </div>
+                      <div>
+                          <p class="blog-text" id="definition"></p>
+                      </div>
+                      <div>
+                          <h1 class="h4">Example</h1>
+                          <p class="blog-text" id="example"></p>
+                      </div>
+                      <div>
+                          <h1 class="h4">How To Spell?</h1>
+                          <p class="blog-text" id="spell"></p>
+                      </div>
+                  </div>
+              </section>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/butterfly.jpeg" alt="Quote of the day"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Quotes</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Quote of the day
+                  </a>
+                </h3>
+                
+                <div class="quoteContainer">
+                  <div class="blog-text" id="quote"></div>
+                  <div class="blog-text" id="author"></div>
+                </div>
+                
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/trivia.jpeg" alt="Trivia Game" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Quiz</button>
+
+                <h3><a href="" class="h3">Trivia Game</a></h3>
+
+                <div class="quizContainer">
+                 
+                  <div class="blog-text">
+                    <button class="blog-topic text-tiny" id="btnNext">Next Question</button>
+                    <div class="blog-text" id="category"></div>
+                    <div class="blog-text" id="question"></div>
+                    <div class="blog-text" id="answer">
+                      <button class="blog-topic text-tiny" id="btnDisplayAnswer">Display Answer</button>
+                    </div>
+                  </div>
+                    
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <img src="./assets/images/ha.jpeg"
+                  alt="Joke" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+                <div class="jokeContainer">
+                  <div class="joke">
+                    <p class="blog-text">joke</p>
+                  </div>
+                </div>
+                <h3>
+                  <a href="#" class="h3">
+                    <span class="blog-topic text-tiny" id="emoji">&#128516;</span>
+                  </a>
+                </h3>  
+              </div>
+
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-card-banner">
+                <div class="embed-responsive embed-responsive-1by1" id="multimedia"></div>
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Astronomy</button>
+
+                <h3><a href="" class="h3">NASA Image of the day</a></h3>
+
+                <h3 class="h3" id="title"></h3>
+                <p class="text-sm" id="date"></p>
+                <P class="blog-text" id="description"></P>
+               
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/desktop.jpeg" alt="<Chuck Norris Jokes>"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Chuck Norris Jokes</button>
+                
+                <h3>
+                  <a href="#" class="h3">
+                    <span class="blog-topic text-tiny" id="emoji">&#128516;</span>
+                  </a>
+                </h3>
+
+                  <div class="jokeContainer">
+                    <div class="blog-text">
+                      <p id="joke"></p>
+                    </div>
+                    <button class="blog-topic text-tiny" id="buttonGetJoke">New Joke</button>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Skills</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Java</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Python</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>JavaScript</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Others</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">Mongodb</button>
+              <button class="hashtag">nodejs</button>
+              <button class="hashtag">SpringBoot</button>
+              <button class="hashtag">mobility</button>
+              <button class="hashtag">inclusion</button>
+              <button class="hashtag">webperf</button>
+              <button class="hashtag">optimize</button>
+              <button class="hashtag">performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/qc.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/goldqc.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="./services.html" class="footer-link">Advertise With Us</a>
+          </li>
+
+          <li>
+            <a href="./about.html" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#"><img src="./assets/images/qc.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-light">
+        <img src="./assets/images/goldqc.svg" alt="DevBlog's Logo" width="150" height="40" class="logo-dark"></a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+  <script src="./assets/js/script.quotes.js"></script>
+  <script src="./assets/js/script.jokes.js"></script>
+  <script src="./assets/js/script.joke.js"></script>
+  <script src="./assets/js/script.quiz.js"></script>
+  <script src="./assets/js/script.meme.js"></script>
+  <script src="./assets/js/script.weather.js"></script>
+  <script src="./assets/js/script.audio.js"></script>
+  <script src="./assets/js/script.astronomy.js"></script>
+  <script src="./assets/js/script.dictionary.js"></script>
+  
+  <!--
+    - ionicon link
+  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
